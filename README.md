@@ -1,5 +1,6 @@
 # CARTOGCOFFEE:
 A full stack educational app for coffee production and consumption. 
+This is a codeclan project working with others. My responsibility was everything ivolving the Map, including its integration with the API through filters etc. This was after only one week of learning JavaScript and 2 weeks of React. Including planning and researching react-leaflet, this was completed in 5 days.
 
 # Trello link: 
 https://trello.com/b/l0IKnCu5/coffee-app-project
