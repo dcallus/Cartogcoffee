@@ -2,7 +2,7 @@
 Create an educational app with an API. MVP and Extensions defined by our team of 4.
 5 days to deploy including all planning.
 
-# My part of the app was the interactive map (react leaflet) including the appropriate filtering options and choropleths.
+My part of the app was the interactive map (react leaflet) including the appropriate filtering options and choropleths.
 
 # CARTOGCOFFEE:
 A full stack educational app for coffee production and consumption. 
