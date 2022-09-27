@@ -25,10 +25,9 @@ const UiContainer = () => {
 
 
   useEffect(() => {
-    getCoffees().then((allCoffees) => {
-      setCoffees(allCoffees);
-      setLegend(exportLegend);
-    });
+    const allCoffees = getCoffees();
+    setCoffees(allCoffees);
+    setLegend(exportLegend);
   }, []);
 
   const onCountryClick = () => {

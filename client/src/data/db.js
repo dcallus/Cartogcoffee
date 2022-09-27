@@ -1,4 +1,4 @@
-export const db =
+export const dataBase =
     [{
         region: "Africa",
         country: "Burundi",
