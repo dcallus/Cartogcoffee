@@ -1,7 +1,5 @@
-use coffee_facts;
-db.dropDatabase();
-db.coffees.insertMany([
-    {
+export const db =
+    [{
         region: "Africa",
         country: "Burundi",
         number_of_farms: "14",
@@ -413,5 +411,4 @@ db.coffees.insertMany([
         export_volume: "400,000",
         lat: "7.094946610980019",
         long: "-66.25506276936846"
-    }
-]);
+    }];
