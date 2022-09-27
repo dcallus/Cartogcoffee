@@ -1,0 +1,69 @@
+[debug] [2022-09-27T19:22:45.451Z] ----------------------------------------------------------------------
+[debug] [2022-09-27T19:22:45.453Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init
+[debug] [2022-09-27T19:22:45.453Z] CLI Version:   11.11.0
+[debug] [2022-09-27T19:22:45.454Z] Platform:      darwin
+[debug] [2022-09-27T19:22:45.454Z] Node Version:  v16.13.1
+[debug] [2022-09-27T19:22:45.455Z] Time:          Tue Sep 27 2022 20:22:45 GMT+0100 (British Summer Time)
+[debug] [2022-09-27T19:22:45.455Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-09-27T19:22:45.461Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-09-27T19:22:45.461Z] > authorizing via signed-in user (danielcallus@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/danielcallus/Projects/Cartogcoffee/client
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-09-27T19:22:56.552Z] > refreshing access token with scopes: []
+[debug] [2022-09-27T19:22:56.554Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2022-09-27T19:22:56.555Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-09-27T19:22:57.098Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2022-09-27T19:22:57.098Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-09-27T19:22:57.114Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2022-09-27T19:22:57.916Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2022-09-27T19:22:57.916Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project cartogcoffee (cartogcoffee) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2022-09-27T19:24:18.388Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2022-09-27T19:24:18.486Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2022-09-27T19:24:18.486Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.10.0","browserURL":"https://www.gstatic.com/firebasejs/9.10.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.10.0/firebase.tgz"},"live":{"version":"9.10","browserURL":"https://www.gstatic.com/firebasejs/live/9.10/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.10/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.10.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.10.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.10.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.10.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.10.0/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.10.0/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.10.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.10.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.10.0/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/9.10.0/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/9.10.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.10.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.10.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.10.0/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.10.0/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.10.0/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.10.0/firebase-firestore.memory.js"}}
+[info] i  Skipping write of public/index.html 
+[info] 
+[info] i  Detected a .git folder at /Users/danielcallus/Projects/Cartogcoffee 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=855533511&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2022-09-27T19:24:52.718Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2022-09-27T19:24:52.718Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2022-09-27T19:24:53.184Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2022-09-27T19:24:53.184Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2022-09-27T19:24:53.188Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2022-09-27T19:24:53.503Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2022-09-27T19:24:53.503Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"dcallus","id":80394290,"node_id":"MDQ6VXNlcjgwMzk0Mjkw","avatar_url":"https://avatars.githubusercontent.com/u/80394290?v=4","gravatar_id":"","url":"https://api.github.com/users/dcallus","html_url":"https://github.com/dcallus","followers_url":"https://api.github.com/users/dcallus/followers","following_url":"https://api.github.com/users/dcallus/following{/other_user}","gists_url":"https://api.github.com/users/dcallus/gists{/gist_id}","starred_url":"https://api.github.com/users/dcallus/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/dcallus/subscriptions","organizations_url":"https://api.github.com/users/dcallus/orgs","repos_url":"https://api.github.com/users/dcallus/repos","events_url":"https://api.github.com/users/dcallus/events{/privacy}","received_events_url":"https://api.github.com/users/dcallus/received_events","type":"User","site_admin":false,"name":"Daniel Callus","company":null,"blog":"","location":"Glasgow","email":null,"hireable":null,"bio":"I'm here to make things that matter!\r\nLove Typescript/React, C#, Python, self-improvement, innovation.","twitter_username":null,"public_repos":22,"public_gists":0,"followers":16,"following":15,"created_at":"2021-03-10T10:52:57Z","updated_at":"2022-09-27T17:11:23Z","private_gists":0,"total_private_repos":4,"owned_private_repos":4,"disk_usage":205462,"collaborators":0,"two_factor_authentication":true,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] ✔  Success! Logged into GitHub as dcallus 
+[info] 
+[debug] [2022-09-27T19:25:57.032Z] >>> [apiv2][query] GET https://api.github.com/repos//actions/secrets/public-key type=owner
+[debug] [2022-09-27T19:25:57.271Z] <<< [apiv2][status] GET https://api.github.com/repos//actions/secrets/public-key 404
+[debug] [2022-09-27T19:25:57.271Z] <<< [apiv2][body] GET https://api.github.com/repos//actions/secrets/public-key {"message":"Not Found","documentation_url":"https://docs.github.com/rest"}
